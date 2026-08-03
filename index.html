@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.className += " js";</script>
+  <title>AurinkoTech — Where Technology Rises</title>
+  <meta name="description" content="AurinkoTech UG (limited liability) is a German technology company built around two disciplines: the distribution and development of hardware, and the development of our own software." />
+  <meta name="theme-color" content="#0b1a30" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AurinkoTech — Where Technology Rises" />
+  <meta property="og:description" content="A German technology company bringing hardware and software development under one roof." />
+  <meta property="og:image" content="assets/logo.png" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__brand" aria-label="AurinkoTech home">
+        <span class="nav__brand-mark">AurinkoTech</span>
+        <span class="nav__brand-sub">UG (limited liability)</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#what-we-do">What We Do</a>
+        <a href="#developments">Developments</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__content reveal">
+        <img class="hero__logo" src="assets/logo.png" alt="AurinkoTech logo" width="420" height="230" />
+        <h1 class="hero__title">AurinkoTech <span class="dash">—</span> where technology rises</h1>
+        <p class="hero__lead">
+          AurinkoTech is a German technology company built around two disciplines:
+          the distribution and development of hardware, and the development of our own software.
+        </p>
+
+        <div class="hero__chart" aria-hidden="true">
+          <svg viewBox="0 0 1000 120" preserveAspectRatio="none" fill="none">
+            <path id="riseLine" d="M0 100 L150 100 L215 62 L275 84 L330 48 L400 72 L455 40"
+                  stroke="rgba(255,255,255,.55)" stroke-width="1.6" />
+            <path id="riseLine2" d="M455 40 L520 34 L1000 34"
+                  stroke="#ffffff" stroke-width="2" />
+            <path d="M498 20 L540 34 L498 48 Z" fill="#ffffff" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero__facts reveal">
+        <div class="fact">
+          <span class="fact__label">Headquarters</span>
+          <span class="fact__value">Bavaria, Germany</span>
+        </div>
+        <div class="fact">
+          <span class="fact__label">Business Purpose</span>
+          <span class="fact__value">Distribution &amp; development of hardware and software</span>
+        </div>
+        <div class="fact">
+          <span class="fact__label">Leadership</span>
+          <span class="fact__value">Anja Pfaffinger &amp; Yehor Tereshchenko</span>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to content">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT (light) ===== -->
+    <section class="section section--light" id="about">
+      <div class="wrap">
+        <p class="eyebrow">01 — About the Company</p>
+        <h2 class="section__title reveal">Who We Are</h2>
+        <span class="rule reveal"></span>
+
+        <p class="lead-quote reveal">
+          AurinkoTech UG (limited liability) is a technology company based in Bavaria, Germany.
+          We bring together hardware engineering and software development under one roof, sourcing
+          and building hardware while developing our own software products.
+        </p>
+
+        <div class="grid-2 mv-grid">
+          <article class="card reveal">
+            <p class="card__kicker">Mission</p>
+            <h3 class="card__title">Make good technology easy to reach</h3>
+            <p class="card__body">
+              We connect the gap between capable hardware and the software that runs on it,
+              so that dependable technology is never out of reach.
+            </p>
+          </article>
+          <article class="card reveal">
+            <p class="card__kicker">Vision</p>
+            <h3 class="card__title">A rising standard for both worlds</h3>
+            <p class="card__body">
+              We see hardware and software as one continuous product experience,
+              not two separate disciplines — and we build accordingly.
+            </p>
+          </article>
+        </div>
+
+        <div class="callout reveal">
+          <div class="callout__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <rect x="7" y="4" width="12" height="15" rx="2" />
+              <path d="M5 7v13h11" />
+            </svg>
+          </div>
+          <p>
+            <strong>Business purpose:</strong> the distribution and development of hardware and software
+            (Vertrieb und Entwicklung von Hard- und Software), operated as a UG (limited liability) under German law.
+          </p>
+        </div>
+
+        <div class="facts-row reveal">
+          <div class="factnum">
+            <span class="factnum__n">01</span>
+            <p>Registered as a UG (limited liability) under German law, headquartered in Bavaria.</p>
+          </div>
+          <div class="factnum">
+            <span class="factnum__n">02</span>
+            <p>Two founders, one in Bavaria and one in Finland — distributed by design.</p>
+          </div>
+          <div class="factnum">
+            <span class="factnum__n">03</span>
+            <p>Focused on two disciplines: physical hardware and the software we build ourselves.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LEADERSHIP (dark) ===== -->
+    <section class="section section--dark" id="leadership">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--onDark">02 — Leadership</p>
+        <h2 class="section__title section__title--onDark reveal">Founding Team</h2>
+        <span class="rule rule--onDark reveal"></span>
+
+        <div class="grid-2 team-grid">
+          <article class="person reveal">
+            <img class="person__photo" src="assets/anja-pfaffinger.png" alt="Anja Pfaffinger" loading="lazy" />
+            <h3 class="person__name">Anja Pfaffinger</h3>
+            <p class="person__role">CEO &amp; Co-Founder</p>
+            <p class="person__bio">
+              Anja leads AurinkoTech's strategy, operations and commercial direction.
+              Based in Bavaria, she drives the company's approach to dependable growth
+              and oversees the distribution side of the business.
+            </p>
+            <span class="pill">Strategy · Operations · Distribution</span>
+          </article>
+
+          <article class="person reveal">
+            <img class="person__photo" src="assets/yehor-tereshchenko.png" alt="Yehor Tereshchenko" loading="lazy" />
+            <h3 class="person__name">Yehor Tereshchenko</h3>
+            <p class="person__role">CTO &amp; Co-Founder</p>
+            <p class="person__bio">
+              Yehor leads product and technology, based in Finland. He is responsible for
+              the engineering direction of AurinkoTech, spanning both hardware integration
+              and software development.
+            </p>
+            <span class="pill">Engineering · Product · Software</span>
+          </article>
+        </div>
+
+        <p class="team-summary reveal">
+          Together, Anja and Yehor founded AurinkoTech to bring hardware and software development
+          under a single, dependable brand — a company built across two countries, aligned around one purpose.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== WHAT WE DO (light) ===== -->
+    <section class="section section--light" id="what-we-do">
+      <div class="wrap">
+        <p class="eyebrow">03 — What We Do</p>
+        <h2 class="section__title reveal">Hardware &amp; Software, Under One Roof</h2>
+        <span class="rule reveal"></span>
+
+        <div class="grid-2 do-grid">
+          <article class="card card--tall reveal">
+            <div class="card__glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="3" y="4" width="18" height="12" rx="1.5" />
+                <path d="M9 20h6M12 16v4" />
+              </svg>
+            </div>
+            <h3 class="card__title">Hardware Distribution &amp; Development</h3>
+            <p class="card__body">
+              We source, supply and develop dependable technology hardware,
+              matched to the systems it needs to run.
+            </p>
+            <ul class="ticks">
+              <li>Technology hardware sourcing &amp; distribution</li>
+              <li>Hardware development &amp; integration</li>
+              <li>Deployment-ready configuration</li>
+            </ul>
+          </article>
+
+          <article class="card card--tall reveal">
+            <div class="card__glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M8 8l-4 4 4 4M16 8l4 4-4 4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3 class="card__title">Software Development</h3>
+            <p class="card__body">
+              We are not a service provider — we build and own our software.
+              Every product is developed in-house, end to end.
+            </p>
+            <ul class="ticks">
+              <li>Proprietary software products, built in-house</li>
+              <li>Full ownership from concept to release</li>
+              <li>Continuous development and iteration</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout callout--plain reveal">
+          <p>
+            <strong>Our model:</strong> two disciplines, one company. AurinkoTech distributes and develops
+            hardware while developing our own software products — not software-as-a-service work for hire,
+            but technology we design, build and stand behind ourselves.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEVELOPMENTS (dark) ===== -->
+    <section class="section section--dark" id="developments">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--onDark">04 — Our Developments</p>
+        <h2 class="section__title section__title--onDark reveal">What We've Built</h2>
+        <span class="rule rule--onDark reveal"></span>
+
+        <p class="lead-quote lead-quote--onDark reveal">
+          Software development at AurinkoTech began with StudyShorts — the product that put our
+          approach to building and owning our own software into practice.
+        </p>
+
+        <article class="product reveal">
+          <div class="product__media">
+            <img src="assets/studyshorts-robot.png" alt="StudyShorts robot mascot" loading="lazy" />
+          </div>
+          <div class="product__body">
+            <p class="product__kicker">Flagship Product</p>
+            <h3 class="product__title">StudyShorts</h3>
+            <p class="product__desc">
+              StudyShorts is an EdTech platform that converts study materials into short,
+              AI-generated videos — giving students a faster way to absorb what they need to
+              learn through AI-powered microlearning.
+            </p>
+            <a class="product__link" href="https://studyshorts.net/" target="_blank" rel="noopener">
+              studyshorts.net
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M7 17L17 7M8 7h9v9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+            <span class="pill pill--onDark">AI · EdTech · Microlearning</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT (dark) ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--onDark">06 — Get in Touch</p>
+        <h2 class="section__title section__title--onDark reveal">Contact AurinkoTech</h2>
+        <p class="contact__lead reveal">
+          For inquiries about hardware distribution, software development,
+          or partnership opportunities, reach out using the details below.
+        </p>
+
+        <div class="contact__grid reveal">
+          <div class="contact__item">
+            <span class="contact__label">Email</span>
+            <a class="contact__value contact__value--link" href="mailto:info@aurinkotech.com">info@aurinkotech.com</a>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Location</span>
+            <span class="contact__value">Bavaria, Germany</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Company</span>
+            <span class="contact__value">AurinkoTech UG (limited liability)</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">CEO &amp; Co-Founder</span>
+            <span class="contact__value">Anja Pfaffinger</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">CTO &amp; Co-Founder</span>
+            <span class="contact__value">Yehor Tereshchenko</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Product</span>
+            <a class="contact__value contact__value--link" href="https://studyshorts.net/" target="_blank" rel="noopener">studyshorts.net</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <span class="footer__name">AurinkoTech UG (limited liability)</span>
+        <span class="footer__tag">Where technology rises.</span>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#what-we-do">What We Do</a>
+        <a href="#developments">Developments</a>
+        <a href="#contact">Contact</a>
+        <a href="impressum.html">Legal Notice</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> AurinkoTech UG (haftungsbeschränkt). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
