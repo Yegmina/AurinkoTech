@@ -15,7 +15,8 @@ No build step, no framework — plain HTML/CSS/JS, ready for **GitHub Pages**.
 ├── impressum.html      # Legal Notice (Impressum)
 ├── css/styles.css      # All styling
 ├── js/main.js          # Nav, mobile menu, scroll reveals
-├── assets/             # Logo, founder photos, StudyShorts robot
+├── assets/             # Logo, founder photos, StudyShorts robot, favicon
+│   └── brand/          # Official AurinkoTech logo vectors (SVG) for reuse
 ├── design-source/      # Original design exports (1–7.svg) — reference only, not served
 ├── .nojekyll           # Tell Pages to serve files as-is
 └── .github/workflows/deploy.yml   # Auto-deploy to Pages
@@ -63,7 +64,10 @@ configure DNS per GitHub's docs.
 
 ## Notes / TODO for the client
 
-- **Email** `info@aurinkotech.com` is taken from the brochure and marked "to be confirmed"
-  there — verify before launch.
-- Replace `assets/logo.png` with an SVG logo if a vector version becomes available (sharper).
+- **Email** is `main@studyshorts.net`.
+- **Logos**: the hero uses the metallic 3D mark (`assets/logo.png`, transparent). The
+  official vector logos are in `assets/brand/` (dark-blue, white, 3D white, AT mark).
+  Note: the supplied "3D white" SVG has a baked-in white background, so it can't sit on
+  the dark hero directly — the transparent `logo.png` is used there instead.
+- **Favicon**: `assets/favicon.png` — the metallic AT mark on a navy tile.
 - All copy is transcribed verbatim from the design; edit in `index.html`.
